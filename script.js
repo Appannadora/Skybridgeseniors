@@ -78,3 +78,4 @@ function changeLanguage(langCode, langLabel) {
     setTimeout(() => changeLanguage(langCode, langLabel), 500);
   }
 }
+

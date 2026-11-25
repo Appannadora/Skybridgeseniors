@@ -2210,3 +2210,1030 @@ body {
 
   /* ... keep your existing mobile styling for typography and padding ... */
 }
+
+/* ==================================================
+   SKY BRIDGE - PREMIUM FEATURES SECTION
+================================================== */
+
+.sb-features {
+  position: relative !important;
+  width: 100% !important;
+  padding: 100px 0 !important;
+  overflow: hidden !important;
+
+  background:
+    radial-gradient(circle at 5% 10%,
+      rgba(169, 207, 174, 0.25), transparent 35%),
+    radial-gradient(circle at 95% 90%,
+      rgba(211, 176, 112, 0.17), transparent 35%),
+    linear-gradient(135deg,
+      #EDF5ED 0%, #F9FAF5 55%, #F8F2E8 100%) !important;
+}
+
+.sb-features .container {
+  width: 92% !important;
+  max-width: 1250px !important;
+  margin: 0 auto !important;
+}
+
+
+/* SECTION LABEL */
+
+.sb-features .section-label {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 9px !important;
+
+  padding: 10px 19px !important;
+  margin-bottom: 20px !important;
+
+  background: #FFFFFF !important;
+  border: 1px solid #DCE9DC !important;
+  border-radius: 50px !important;
+
+  color: #164B3B !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.5px !important;
+}
+
+.sb-features .section-label i {
+  color: #C49A4E !important;
+}
+
+
+/* SECTION HEADING */
+
+.sb-features h2 {
+  max-width: 750px !important;
+  margin: 0 auto 18px !important;
+
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: clamp(32px, 4vw, 48px) !important;
+  line-height: 1.2 !important;
+  font-weight: 500 !important;
+
+  color: #103D31 !important;
+  letter-spacing: -1px !important;
+}
+
+.sb-features h2 span {
+  display: inline-block !important;
+  color: #C49A4E !important;
+  font-style: italic !important;
+}
+
+
+/* DESCRIPTION */
+
+.sb-features .features-subtext {
+  max-width: 620px !important;
+  margin: 0 auto 55px !important;
+
+  color: #718078 !important;
+  font-size: 14px !important;
+  line-height: 1.9 !important;
+}
+
+
+/* ==================================================
+   FEATURES GRID
+================================================== */
+
+.sb-features .features-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+
+  gap: 22px !important;
+  align-items: stretch !important;
+}
+
+
+/* ==================================================
+   FEATURE CARDS
+================================================== */
+
+.sb-features .feature-card {
+  position: relative !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+
+  min-width: 0 !important;
+  min-height: 300px !important;
+
+  padding: 27px 23px !important;
+
+  background: rgba(255, 255, 255, 0.92) !important;
+
+  border: 1px solid #E5EDE4 !important;
+  border-radius: 18px !important;
+
+  box-shadow: 0 8px 25px rgba(22, 75, 59, 0.05) !important;
+
+  text-align: left !important;
+  overflow: hidden !important;
+
+  transition: all 0.35s ease !important;
+}
+
+
+/* TOP GOLD LINE */
+
+.sb-features .feature-card::before {
+  content: "" !important;
+
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+
+  width: 0 !important;
+  height: 3px !important;
+
+  background: #C49A4E !important;
+  transition: width 0.4s ease !important;
+}
+
+.sb-features .feature-card:hover::before {
+  width: 100% !important;
+}
+
+
+/* CARD HOVER */
+
+.sb-features .feature-card:hover {
+  transform: translateY(-9px) !important;
+
+  border-color: #D3E2D3 !important;
+
+  box-shadow: 0 20px 40px rgba(22, 75, 59, 0.12) !important;
+}
+
+
+/* CARD TOP */
+
+.sb-features .feature-top {
+  width: 100% !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+  margin-bottom: 28px !important;
+}
+
+.sb-features .feature-number {
+  color: #B4C6B7 !important;
+
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+
+/* ICON */
+
+.sb-features .feature-icon {
+  width: 58px !important;
+  height: 58px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  background: #EAF3EA !important;
+  color: #164B3B !important;
+
+  border-radius: 17px !important;
+
+  font-size: 23px !important;
+
+  transition: all 0.35s ease !important;
+}
+
+.sb-features .feature-card:hover .feature-icon {
+  background: #164B3B !important;
+  color: #FFFFFF !important;
+
+  transform: rotate(-5deg) scale(1.07) !important;
+}
+
+
+/* CARD TITLE */
+
+.sb-features .feature-card h3 {
+  margin: 0 0 13px !important;
+
+  color: #164B3B !important;
+
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+}
+
+
+/* CARD DESCRIPTION */
+
+.sb-features .feature-card p {
+  margin: 0 0 22px !important;
+
+  color: #75847A !important;
+
+  font-size: 12px !important;
+  line-height: 1.9 !important;
+  font-weight: 400 !important;
+}
+
+
+/* LEARN MORE */
+
+.sb-features .feature-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 15px !important;
+
+  width: 100% !important;
+  margin-top: auto !important;
+
+  padding-top: 16px !important;
+
+  border-top: 1px solid #E9EEE8 !important;
+
+  color: #164B3B !important;
+
+  font-size: 11px !important;
+  font-weight: 700 !important;
+
+  text-decoration: none !important;
+
+  transition: color 0.3s ease !important;
+}
+
+.sb-features .feature-link i {
+  width: 30px !important;
+  height: 30px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  background: #EDF4EC !important;
+  color: #164B3B !important;
+
+  border-radius: 50% !important;
+
+  transition: all 0.3s ease !important;
+}
+
+.sb-features .feature-card:hover .feature-link i {
+  background: #164B3B !important;
+  color: #FFFFFF !important;
+
+  transform: translateX(4px) !important;
+}
+
+
+/* ==================================================
+   TABLET RESPONSIVE
+================================================== */
+
+@media (max-width: 1024px) {
+
+  .sb-features {
+    padding: 80px 0 !important;
+  }
+
+  .sb-features .features-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 20px !important;
+  }
+
+  .sb-features .feature-card {
+    min-height: 280px !important;
+  }
+
+}
+
+
+/* ==================================================
+   MOBILE RESPONSIVE
+================================================== */
+
+@media (max-width: 600px) {
+
+  .sb-features {
+    padding: 60px 0 !important;
+  }
+
+  .sb-features .container {
+    width: 90% !important;
+  }
+
+  .sb-features h2 {
+    font-size: 32px !important;
+  }
+
+  .sb-features .features-subtext {
+    font-size: 12px !important;
+    margin-bottom: 35px !important;
+  }
+
+  .sb-features .features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .sb-features .feature-card {
+    min-height: auto !important;
+    padding: 24px !important;
+    border-radius: 16px !important;
+  }
+
+  .sb-features .feature-top {
+    margin-bottom: 22px !important;
+  }
+
+  .sb-features .feature-icon {
+    width: 52px !important;
+    height: 52px !important;
+    font-size: 21px !important;
+  }
+
+  .sb-features .feature-card h3 {
+    font-size: 19px !important;
+  }
+
+  .sb-features .feature-card p {
+    font-size: 12px !important;
+  }
+
+}
+
+
+/* EXTRA SMALL MOBILE */
+
+@media (max-width: 380px) {
+
+  .sb-features h2 {
+    font-size: 27px !important;
+  }
+
+  .sb-features .feature-card {
+    padding: 20px !important;
+  }
+
+}
+
+
+/* ACCESSIBILITY */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .sb-features .feature-card,
+  .sb-features .feature-icon,
+  .sb-features .feature-link i {
+    transition: none !important;
+  }
+
+}
+
+
+/* =========================================
+   PREMIUM SERVICES SECTION
+========================================= */
+
+.premium-services-section {
+  position: relative !important;
+  overflow: hidden !important;
+  padding: 100px 0 110px !important;
+  background:
+    radial-gradient(circle at 5% 10%, rgba(190, 215, 187, 0.35), transparent 28%),
+    radial-gradient(circle at 95% 85%, rgba(226, 207, 169, 0.28), transparent 30%),
+    linear-gradient(135deg, #f1f7f0 0%, #fbfaf5 50%, #f5f2e9 100%) !important;
+}
+
+/* Header */
+
+.premium-services-section .services-header {
+  max-width: 760px !important;
+  margin: 0 auto 58px !important;
+}
+
+.premium-services-section .section-label {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  color: #a77e3d !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  letter-spacing: 3px !important;
+  text-transform: uppercase !important;
+  margin-bottom: 17px !important;
+}
+
+.premium-services-section .section-label::before,
+.premium-services-section .section-label::after {
+  content: "" !important;
+  width: 25px !important;
+  height: 1px !important;
+  background: #c4a46a !important;
+}
+
+.premium-services-section .services-header h2 {
+  color: #183f32 !important;
+  font-family: "Playfair Display", serif !important;
+  font-size: clamp(32px, 4vw, 48px) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  margin: 0 0 18px !important;
+  letter-spacing: -0.8px !important;
+}
+
+.premium-services-section .services-header p {
+  max-width: 650px !important;
+  margin: 0 auto !important;
+  color: #69766c !important;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+}
+
+/* Services Grid */
+
+.premium-services-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 28px !important;
+  align-items: stretch !important;
+}
+
+/* Service Card */
+
+.premium-services-grid .ps-card {
+  position: relative !important;
+  min-width: 0 !important;
+  overflow: hidden !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(36, 74, 52, 0.08) !important;
+  border-radius: 19px !important;
+  box-shadow: 0 8px 28px rgba(34, 66, 46, 0.055) !important;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease,
+    border-color 0.4s ease !important;
+}
+
+.premium-services-grid .ps-card:hover {
+  transform: translateY(-9px) !important;
+  border-color: rgba(181, 145, 78, 0.45) !important;
+  box-shadow: 0 20px 45px rgba(34, 66, 46, 0.13) !important;
+}
+
+/* Image */
+
+.premium-services-grid .ps-img {
+  position: relative !important;
+  width: 100% !important;
+  height: 205px !important;
+  overflow: hidden !important;
+  background: #e5ede4 !important;
+}
+
+.premium-services-grid .ps-img::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: linear-gradient(180deg,
+      rgba(12, 35, 25, 0.02) 35%,
+      rgba(12, 35, 25, 0.3) 100%) !important;
+  pointer-events: none !important;
+}
+
+.premium-services-grid .ps-img img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  transition: transform 0.7s ease !important;
+}
+
+.premium-services-grid .ps-card:hover .ps-img img {
+  transform: scale(1.08) !important;
+}
+
+/* Image Number */
+
+.premium-services-grid .ps-number {
+  position: absolute !important;
+  z-index: 2 !important;
+  top: 15px !important;
+  left: 15px !important;
+  width: 34px !important;
+  height: 34px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.85) !important;
+  color: #244b36 !important;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+/* Floating Icon */
+
+.premium-services-grid .ps-badge {
+  position: absolute !important;
+  z-index: 3 !important;
+  right: 19px !important;
+  bottom: -24px !important;
+  width: 52px !important;
+  height: 52px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 4px solid #ffffff !important;
+  border-radius: 16px !important;
+  background: #1c503b !important;
+  color: #f4dfad !important;
+  font-size: 19px !important;
+  box-shadow: 0 6px 18px rgba(24, 63, 50, 0.2) !important;
+  transition: all 0.35s ease !important;
+}
+
+.premium-services-grid .ps-card:hover .ps-badge {
+  background: #c19a59 !important;
+  color: #ffffff !important;
+  transform: rotate(-8deg) !important;
+}
+
+/* Card Content */
+
+.premium-services-grid .ps-content {
+  position: relative !important;
+  padding: 31px 21px 23px !important;
+  min-height: 190px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.premium-services-grid .ps-category {
+  display: block !important;
+  margin-bottom: 9px !important;
+  color: #ad8950 !important;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.5px !important;
+}
+
+.premium-services-grid .ps-content h3 {
+  color: #1b4031 !important;
+  font-family: "Playfair Display", serif !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  margin: 0 0 10px !important;
+  min-height: 26px !important;
+}
+
+.premium-services-grid .ps-content p {
+  color: #788078 !important;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.75 !important;
+  margin: 0 0 17px !important;
+}
+
+/* Explore Link */
+
+.premium-services-grid .ps-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 9px !important;
+  margin-top: auto !important;
+  color: #24553e !important;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.premium-services-grid .ps-link i {
+  color: #b28d4d !important;
+  font-size: 11px !important;
+  transition: transform 0.3s ease !important;
+}
+
+.premium-services-grid .ps-link:hover {
+  color: #b28d4d !important;
+}
+
+.premium-services-grid .ps-link:hover i {
+  transform: translateX(5px) !important;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+/* Small Desktop / Laptop */
+
+@media (max-width: 1200px) {
+  .premium-services-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 24px !important;
+  }
+
+  .premium-services-grid .ps-img {
+    height: 195px !important;
+  }
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .premium-services-section {
+    padding: 80px 0 !important;
+  }
+
+  .premium-services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 22px !important;
+  }
+
+  .premium-services-grid .ps-img {
+    height: 220px !important;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .premium-services-section {
+    padding: 65px 0 !important;
+  }
+
+  .premium-services-section .services-header {
+    margin-bottom: 35px !important;
+    padding: 0 8px !important;
+  }
+
+  .premium-services-section .services-header h2 {
+    font-size: 30px !important;
+    line-height: 1.25 !important;
+  }
+
+  .premium-services-section .services-header p {
+    font-size: 13px !important;
+    line-height: 1.8 !important;
+  }
+
+  .premium-services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+  }
+
+  .premium-services-grid .ps-img {
+    height: 230px !important;
+  }
+
+  .premium-services-grid .ps-content {
+    min-height: 175px !important;
+    padding: 31px 20px 22px !important;
+  }
+
+  .premium-services-grid .ps-content h3 {
+    font-size: 21px !important;
+  }
+}
+
+/* Small Mobile */
+
+@media (max-width: 380px) {
+  .premium-services-grid .ps-img {
+    height: 195px !important;
+  }
+
+  .premium-services-section .services-header h2 {
+    font-size: 27px !important;
+  }
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .premium-services-grid .ps-card,
+  .premium-services-grid .ps-img img,
+  .premium-services-grid .ps-badge,
+  .premium-services-grid .ps-link i {
+    transition: none !important;
+  }
+}
+
+/* =====================================
+   RESPONSIVE SKY BRIDGE LOGO
+===================================== */
+
+.navbar .logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  text-decoration: none !important;
+  flex-shrink: 0 !important;
+  min-width: 0 !important;
+}
+
+.navbar .logo-img {
+  display: block !important;
+  width: 58px !important;
+  height: 58px !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+}
+
+.navbar .logo-text {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  min-width: 0 !important;
+}
+
+.navbar .logo-title {
+  color: #173f32 !important;
+  font-family: "Playfair Display", serif !important;
+  font-size: 23px !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 1.5px !important;
+  white-space: nowrap !important;
+}
+
+.navbar .logo-subtitle {
+  color: #173f32 !important;
+  font-family: "Playfair Display", serif !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px !important;
+  line-height: 1.3 !important;
+  white-space: nowrap !important;
+}
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+  .navbar .logo {
+    gap: 9px !important;
+  }
+
+  .navbar .logo-img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .navbar .logo-title {
+    font-size: 20px !important;
+  }
+
+  .navbar .logo-subtitle {
+    font-size: 8px !important;
+    letter-spacing: 1.5px !important;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .navbar .logo {
+    gap: 7px !important;
+  }
+
+  .navbar .logo-img {
+    width: 43px !important;
+    height: 43px !important;
+  }
+
+  .navbar .logo-title {
+    font-size: 17px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .navbar .logo-subtitle {
+    font-size: 7px !important;
+    letter-spacing: 1.1px !important;
+  }
+}
+
+/* Small Mobile */
+
+@media (max-width: 360px) {
+  .navbar .logo-img {
+    width: 37px !important;
+    height: 37px !important;
+  }
+
+  .navbar .logo-title {
+    font-size: 15px !important;
+  }
+
+  .navbar .logo-subtitle {
+    font-size: 6px !important;
+    letter-spacing: 0.8px !important;
+  }
+}
+
+/* FIX: MOBILE LOGO TEXT COLLAPSING */
+
+.navbar .logo {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 7px !important;
+  flex-shrink: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+  white-space: nowrap !important;
+}
+
+.navbar .logo-img {
+  width: 40px !important;
+  height: 40px !important;
+  flex: 0 0 40px !important;
+  object-fit: contain !important;
+}
+
+.navbar .logo-text {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  flex: 0 0 auto !important;
+  width: max-content !important;
+  min-width: max-content !important;
+  white-space: nowrap !important;
+  gap: 2px !important;
+}
+
+.navbar .logo-title {
+  display: block !important;
+  white-space: nowrap !important;
+  font-size: 17px !important;
+  line-height: 1.1 !important;
+  letter-spacing: 0.7px !important;
+}
+
+.navbar .logo-subtitle {
+  display: block !important;
+  white-space: nowrap !important;
+  font-size: 7px !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0.8px !important;
+}
+
+/* Smaller mobile screens */
+
+@media (max-width: 380px) {
+  .navbar .logo {
+    gap: 5px !important;
+  }
+
+  .navbar .logo-img {
+    width: 34px !important;
+    height: 34px !important;
+    flex-basis: 34px !important;
+  }
+
+  .navbar .logo-title {
+    font-size: 15px !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  .navbar .logo-subtitle {
+    font-size: 6px !important;
+    letter-spacing: 0.5px !important;
+  }
+}
+
+/* =================================
+   LARGER PREMIUM LOGO TEXT
+================================= */
+
+.navbar .logo {
+  gap: 12px !important;
+  flex-shrink: 0 !important;
+}
+
+.navbar .logo-img {
+  width: 55px !important;
+  height: 55px !important;
+}
+
+.navbar .logo-text {
+  gap: 5px !important;
+  flex-shrink: 0 !important;
+}
+
+.navbar .logo-title {
+  gap: 7px !important;
+  white-space: nowrap !important;
+}
+
+.navbar .logo-sky {
+  font-size: 19px !important;
+  letter-spacing: 2px !important;
+  font-weight: 600 !important;
+}
+
+.navbar .logo-bridge {
+  font-size: 29px !important;
+  letter-spacing: 0.5px !important;
+  font-weight: 800 !important;
+}
+
+.navbar .logo-subtitle {
+  font-size: 10px !important;
+  letter-spacing: 2.5px !important;
+  font-weight: 800 !important;
+}
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+  .navbar .logo-img {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  .navbar .logo-sky {
+    font-size: 16px !important;
+  }
+
+  .navbar .logo-bridge {
+    font-size: 25px !important;
+  }
+
+  .navbar .logo-subtitle {
+    font-size: 9px !important;
+    letter-spacing: 1.8px !important;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .navbar .logo {
+    gap: 8px !important;
+  }
+
+  .navbar .logo-img {
+    width: 43px !important;
+    height: 43px !important;
+  }
+
+  .navbar .logo-sky {
+    font-size: 15px !important;
+    letter-spacing: 1.5px !important;
+  }
+
+  .navbar .logo-bridge {
+    font-size: 23px !important;
+  }
+
+  .navbar .logo-subtitle {
+    font-size: 8px !important;
+    letter-spacing: 1.3px !important;
+  }
+}
+
+/* Small Mobile */
+
+@media (max-width: 380px) {
+  .navbar .logo-img {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .navbar .logo-sky {
+    font-size: 13px !important;
+  }
+
+  .navbar .logo-bridge {
+    font-size: 20px !important;
+  }
+
+  .navbar .logo-subtitle {
+    font-size: 7px !important;
+    letter-spacing: 1px !important;
+  }
+}
