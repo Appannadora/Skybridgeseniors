@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky Bridge Senior Comfort Club | Premium Senior Care</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVIGATION ===== -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <!-- LOGO ADDED HERE -->
+        <!-- LOGO & WEBSITE NAME ADDED HERE -->
+        <a href="#" class="logo">
+          <img src="logo.png" alt="Sky Bridge Logo" class="logo-img" />
+          <div class="logo-text">
+            <span class="logo-title">SKY BRIDGE</span>
+            <span class="logo-subtitle">SENIOR COMFORT CLUB</span>
+          </div>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About Us</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <!-- LANGUAGE SELECTOR ADDED HERE -->
+          <!-- LANGUAGE SELECTOR UPDATED -->
+          <div class="lang-selector">
+            <button class="lang-btn">
+              <i class="fa-solid fa-globe"></i>
+              <span id="current-lang">EN</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <ul class="lang-dropdown">
+              <li>
+                <a href="#" onclick="changeLanguage('en', 'EN')">English</a>
+              </li>
+              <li>
+                <a href="#" onclick="changeLanguage('fr', 'FR')">French</a>
+              </li>
+              <li>
+                <a href="#" onclick="changeLanguage('de', 'DE')">German</a>
+              </li>
+
+              <li>
+                <a href="#" onclick="changeLanguage('it', 'IT')">Italian</a>
+              </li>
+              <li>
+                <a href="#" onclick="changeLanguage('es', 'ES')">Spanish</a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#contact" class="btn btn-dark"
+            >Schedule <i class="fa-solid fa-arrow-right"></i
+          ></a>
+          <button class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <!-- ===== NEW PREMIUM HERO SECTION ===== -->
+
+    <section class="hero" id="home">
+      <div class="hero-bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+      </div>
+
+      <div class="container hero-bento-layout">
+        <!-- RIGHT IMAGE SECTION - FIRST ON MOBILE -->
+        <div class="hero-visual-bento reveal">
+          <div class="bento-item main-img">
+            <img
+              src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1000&q=80"
+              alt="Senior couple receiving compassionate care"
+            />
+          </div>
+
+          <div class="bento-item top-img">
+            <img
+              src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?auto=format&fit=crop&w=600&q=80"
+              alt="Caregiver supporting a senior"
+            />
+          </div>
+
+          <div class="glass-card card-rating">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Rated 5.0 by Families</p>
+          </div>
+
+          <div class="glass-card card-support">
+            <div class="support-icon">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <div class="support-text">
+              <strong>Always Here</strong>
+              <span>24/7 Care Support</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TEXT SECTION - SECOND ON MOBILE -->
+        <div class="hero-text-content">
+          <div class="hero-badge reveal">
+            <span class="pulse-dot"></span>
+            Accepting New Residents
+          </div>
+
+          <h1 class="hero-heading reveal">
+            Compassionate Care.<br />
+            <span class="italic-serif">Peace of Mind.</span>
+          </h1>
+
+          <p class="hero-subtext reveal">
+            We provide a safe, nurturing, and respectful home environment where
+            every individual receives compassionate care, comfort, and dignity.
+          </p>
+
+          <div class="hero-buttons reveal">
+            <a href="#contact" class="btn btn-primary hero-btn-main">
+              Book a Service
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#about" class="btn btn-outline-dark hero-btn-secondary">
+              Talk to Our Team
+            </a>
+          </div>
+
+          <div class="hero-trust-row reveal">
+            <div class="trust-item">
+              <h4>24/7</h4>
+              <span>Support</span>
+            </div>
+
+            <div class="trust-divider"></div>
+
+            <div class="trust-item">
+              <h4>100+</h4>
+              <span>Expert Staff</span>
+            </div>
+
+            <div class="trust-divider"></div>
+
+            <div class="trust-item">
+              <h4>300+</h4>
+              <span>Happy Seniors</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INTRO TEXT ===== -->
+    <section class="section intro-section">
+      <div class="container text-center">
+        <h2 class="reveal">
+          Because every senior deserves not just care—but
+          <span class="text-gold">compassion</span>,
+          <span class="text-gold">respect</span>, and a
+          <span class="text-gold">place to call home.</span>
+        </h2>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES SECTION ===== -->
+    <section class="section features-section">
+      <div class="container text-center">
+        <span class="section-label">Our Features</span>
+        <h2>We Believe We Can Save More Lives</h2>
+        <p class="features-subtext">
+          There are many variations of passages of available but the majority
+          have suffered alteration in some form, by injected humour randomised
+          slightly
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+            <h3>Multiple Service</h3>
+            <p>
+              We offer a wide range of services under one roof. From start to
+              finish, we've got every need covered.
+            </p>
+            <a href="#services" class="btn btn-primary btn-sm">Learn More</a>
+          </div>
+          <div class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-building"></i></div>
+            <h3>Interactive Features</h3>
+            <p>
+              Especially if your area has a diverse population. To help seniors
+              with vision difficulties.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+          </div>
+          <div class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-user-tie"></i></div>
+            <h3>Empathetic staff</h3>
+            <p>
+              Our Empathetic staff is dedicated providing support and attention
+              to every patient.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+          </div>
+          <div class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+            <h3>24/7 Fast Support</h3>
+            <p>
+              Our 24/7 support ensures you have access to care and assistance
+              anytime, day or night.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PREMIUM SERVICES GRID ===== -->
+    <section class="section premium-services-section" id="services">
+      <div class="container">
+        <div class="services-header text-center reveal">
+          <span class="section-label">Our Services</span>
+          <h2>Supporting Every Step of the Aging Journey</h2>
+          <p>
+            Discover our comprehensive range of personalized care services
+            designed to bring joy, comfort, and safety to your loved ones.
+          </p>
+        </div>
+
+        <div class="premium-services-grid">
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=600&q=80"
+                alt="Senior Comfort Club"
+              />
+              <div class="ps-badge"><i class="fa-solid fa-heart"></i></div>
+            </div>
+            <div class="ps-content">
+              <h3>Senior Comfort Club</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?auto=format&fit=crop&w=600&q=80"
+                alt="Basic Service"
+              />
+              <div class="ps-badge"><i class="fa-solid fa-house"></i></div>
+            </div>
+            <div class="ps-content">
+              <h3>Basic Service</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
+                alt="Peace Relax Care"
+              />
+              <div class="ps-badge"><i class="fa-solid fa-spa"></i></div>
+            </div>
+            <div class="ps-content">
+              <h3>Peace, Relax Care & Activity</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1516307365426-bea591f05011?auto=format&fit=crop&w=600&q=80"
+                alt="Services for Pension"
+              />
+              <div class="ps-badge">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+              </div>
+            </div>
+            <div class="ps-content">
+              <h3>Services for Pension</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=600&q=80"
+                alt="Services for Joy"
+              />
+              <div class="ps-badge"><i class="fa-solid fa-face-smile"></i></div>
+            </div>
+            <div class="ps-content">
+              <h3>Services for Joy</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1508963493744-76fce69379c0?auto=format&fit=crop&w=600&q=80"
+                alt="Services for Entertainment"
+              />
+              <div class="ps-badge">
+                <i class="fa-solid fa-masks-theater"></i>
+              </div>
+            </div>
+            <div class="ps-content">
+              <h3>Services for Entertainment</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&w=600&q=80"
+                alt="Services for Sports"
+              />
+              <div class="ps-badge"><i class="fa-solid fa-basketball"></i></div>
+            </div>
+            <div class="ps-content">
+              <h3>Services for Sports</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80"
+                alt="Services for Meetings"
+              />
+              <div class="ps-badge">
+                <i class="fa-solid fa-users-rectangle"></i>
+              </div>
+            </div>
+            <div class="ps-content">
+              <h3>Services for Meetings</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=600&q=80"
+                alt="Clubbing Service"
+              />
+              <div class="ps-badge">
+                <i class="fa-solid fa-champagne-glasses"></i>
+              </div>
+            </div>
+            <div class="ps-content">
+              <h3>Clubbing Service</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=600&q=80"
+                alt="Services for Holiday"
+              />
+              <div class="ps-badge"><i class="fa-solid fa-plane"></i></div>
+            </div>
+            <div class="ps-content">
+              <h3>Services for Holiday</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80"
+                alt="Services for Sharing & Caring"
+              />
+              <div class="ps-badge">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+              </div>
+            </div>
+            <div class="ps-content">
+              <h3>Services for Sharing & Caring</h3>
+            </div>
+          </div>
+          <div class="ps-card reveal">
+            <div class="ps-img">
+              <img
+                src="https://images.unsplash.com/photo-1531988042231-d39a9cc12a9a?auto=format&fit=crop&w=600&q=80"
+                alt="Create a life of Freedom"
+              />
+              <div class="ps-badge"><i class="fa-solid fa-dove"></i></div>
+            </div>
+            <div class="ps-content">
+              <h3>Create a life of Freedom</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT & STATS SECTION ===== -->
+    <section class="section about-stats-section" id="about">
+      <div class="container about-stats-grid">
+        <div class="about-text-content reveal">
+          <span class="section-label text-gold"
+            >Welcome To Sky Bridge Senior Comfort Club</span
+          >
+          <h2>We Make A Difference In Senior Lives</h2>
+          <p>
+            We believe that every senior deserves to live with dignity, comfort,
+            and joy. Our mission is to provide compassionate, personalized care
+            that supports the physical, emotional, and social well-being of
+            every individual we serve.
+          </p>
+          <p>
+            With years of experience in Sky Bridge Senior Comfort Club, our
+            dedicated team of caregivers, nurses, and support staff are
+            committed to creating a safe and nurturing environment—whether at
+            home or in our care facilities.
+          </p>
+
+          <ul class="check-list">
+            <li>
+              <i class="fa-solid fa-check text-gold"></i> Compassionate,
+              Personalized Care.
+            </li>
+            <li>
+              <i class="fa-solid fa-check text-gold"></i> Experienced and
+              Trusted Team
+            </li>
+            <li>
+              <i class="fa-solid fa-check text-gold"></i> Comprehensive Services
+            </li>
+          </ul>
+
+          <a href="#" class="btn btn-primary mt-2">More Information</a>
+        </div>
+
+        <div class="about-visuals reveal">
+          <div class="about-illustration">
+            <img
+              src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=800&q=80"
+              alt="Seniors holding hands"
+            />
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h3>100 +</h3>
+              <span>Staff</span>
+            </div>
+            <div class="stat-card">
+              <h3>120 +</h3>
+              <span>Company</span>
+            </div>
+            <div class="stat-card">
+              <h3>300 +</h3>
+              <span>Senior Citizens</span>
+            </div>
+            <div class="stat-card">
+              <h3>350 +</h3>
+              <span>Travels</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="section why-section">
+      <div class="container">
+        <div class="why-header reveal">
+          <span class="section-label"> Why Choose Us</span>
+          <h2>
+            The Right Choice for Your Loved One's Next Chapter—In a Place
+            They'll Truly Feel at Home.
+          </h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=600&q=80"
+              alt="Caregiver with senior"
+            />
+            <div class="why-card-content">
+              <span class="num">01/</span>
+              <h3>Personalized Care Plans</h3>
+              <p>
+                We tailor our support to meet the unique needs, routines, and
+                wishes of each resident.
+              </p>
+            </div>
+          </div>
+          <div class="why-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?auto=format&fit=crop&w=600&q=80"
+              alt="Caregiver assisting senior"
+            />
+            <div class="why-card-content">
+              <span class="num">02/</span>
+              <h3>Compassionate Staff</h3>
+              <p>
+                Our team is trained, trusted, and deeply committed to senior
+                well-being.
+              </p>
+            </div>
+          </div>
+          <div class="why-card reveal">
+            <img
+              src="https://images.unsplash.com/photo-1516307365426-bea591f05011?auto=format&fit=crop&w=600&q=80"
+              alt="Elderly couple"
+            />
+            <div class="why-card-content">
+              <span class="num">03/</span>
+              <h3>Warm, Home-Like Environment</h3>
+              <p>
+                Comfortable rooms, cozy shared spaces, and a welcoming
+                atmosphere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="section process-section" id="process">
+      <div class="container process-grid">
+        <div class="process-content reveal">
+          <span class="section-label text-gold"> Our Process</span>
+          <h2 class="text-white">Simple Steps Toward Better Care</h2>
+          <div class="process-steps">
+            <div class="step">
+              <span class="step-num">01</span>
+              <div>
+                <h3>Initial Consultation</h3>
+                <p>
+                  We start with a conversation to understand your needs and
+                  preferences.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step-num">02</span>
+              <div>
+                <h3>Personalized Care Plan</h3>
+                <p>
+                  Our medical and care team design a tailored plan focusing on
+                  health, safety, and daily comfort.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step-num">03</span>
+              <div>
+                <h3>Tour and Admission</h3>
+                <p>
+                  Visit our community, meet our team, and complete a simple
+                  admission process.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <span class="step-num">04</span>
+              <div>
+                <h3>Warm Welcome & Ongoing Support</h3>
+                <p>
+                  Move in and feel at home with continuous care, social
+                  activities, and community involvement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="process-image reveal">
+          <img
+            src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&w=600&q=80"
+            alt="Caregiver hugging senior"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER (UPDATED) ===== -->
+    <footer class="footer" id="contact">
+      <div class="container footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="logo.png" alt="Sky Bridge Logo" class="footer-logo-img" />
+          </a>
+          <p>
+            We tailor our services to meet the unique needs of each senior,
+            ensuring comfort, dignity, and quality of life.
+          </p>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-solid fa-chevron-right"></i> About</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-chevron-right"></i> Services</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-chevron-right"></i> FAQ's</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-chevron-right"></i> Blogs</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-chevron-right"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Column -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+
+          <!-- Location (Clickable to Google Maps) -->
+          <p>
+            <a
+              href="https://maps.google.com/?q=Flugplatzstrasse+48,+Bern+Airport,+Belp+3123"
+              target="_blank"
+            >
+              <i class="fa-solid fa-location-dot"></i> Flugplatzstrasse 48, Bern
+              Airport, Belp 3123
+            </a>
+          </p>
+
+          <!-- Email (Clickable to open email app) -->
+          <p>
+            <a href="mailto:info@skybridgeagtravels.com">
+              <i class="fa-solid fa-envelope"></i> info@skybridgeagtravels.com
+            </a>
+          </p>
+
+          <!-- Phone Numbers (Clickable to call) -->
+          <p>
+            <a href="tel:+41313823030">
+              <i class="fa-solid fa-phone"></i> +41 31 382 3030
+            </a>
+          </p>
+          <p>
+            <a href="tel:+41313823033">
+              <i class="fa-solid fa-phone"></i> +41 31 382 3033
+            </a>
+          </p>
+          <p>
+            <a href="tel:+41796313030">
+              <i class="fa-solid fa-mobile-screen"></i> +41 79 631 3030
+            </a>
+          </p>
+          <p>
+            <a href="tel:+41796343030">
+              <i class="fa-solid fa-mobile-screen"></i> +41 79 634 3030
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="container footer-bottom-flex">
+          <p>© Sky Bridge Senior Comfort Club, All Right Reserved.</p>
+          <p>
+            Designed & Developed By
+            <strong>Vijaymalireddi003@gmail.com</strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+    <a
+      href="https://wa.me/41313823030"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>
